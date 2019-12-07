@@ -1,0 +1,9 @@
+git_url("GIT_REPO_URL_HERE") 
+
+storage_mode("git")
+
+app_identifier(["APP_BUNDLE_IDENTIFIER"])
+
+shallow_clone true
+
+ENV["MATCH_PASSWORD"] = "PASSWORD_TO_ACCESS_THE_REPO"
